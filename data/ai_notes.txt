@@ -1,0 +1,7 @@
+Artificial Intelligence enables machines to perform tasks that normally require human intelligence.
+
+Machine Learning is a subset of AI.
+
+Large Language Models generate text based on patterns learned from data.
+
+RAG combines retrieval with generation.

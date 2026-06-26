@@ -1,8 +1,14 @@
 import streamlit as st
+import os
 
 st.title("RAG APP")
 
-with open("data\sample.txt", "r") as file:
+
+files = os.listdir("data")
+
+selected_file = st.selectbox("Choose a document", files)
+
+with open("data/" + selected_file, "r") as file:
     text = file.read()
 
 st.write(text)
